@@ -36,7 +36,7 @@ class ImuProcess
 {
  public:
   EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-
+/*make a macro to meet the requirements of memory alignment*/
   ImuProcess();
   ~ImuProcess();
   
