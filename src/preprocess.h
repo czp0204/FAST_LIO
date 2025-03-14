@@ -10,7 +10,10 @@
 using namespace std;
 
 #define IS_VALID(a)  ((abs(a)>1e8) ? true : false)
+/*这段代码定义了一个名为 `IS_VALID` 的宏，用于检查一个数值是否有效。
 
+这个宏可以用于过滤掉那些数值过大或过小的异常数据点，
+*/
 typedef pcl::PointXYZINormal PointType;
 typedef pcl::PointCloud<PointType> PointCloudXYZI;
 
